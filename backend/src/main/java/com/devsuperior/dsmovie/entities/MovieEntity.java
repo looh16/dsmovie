@@ -8,7 +8,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "tb_movie")
-public class Movie {
+public class MovieEntity {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,11 +22,11 @@ public class Movie {
 	
 	private String image;
 
-	public Movie() {
+	public MovieEntity() {
 		
 	}
 
-	public Movie(Long id, String title, Double score, Integer count, String image) {
+	public MovieEntity(Long id, String title, Double score, Integer count, String image) {
 		
 		this.id = id;
 		this.title = title;
@@ -78,5 +78,6 @@ public class Movie {
 	
 	
 	
+
 
 }

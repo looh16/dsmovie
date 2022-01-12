@@ -12,9 +12,8 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "tb_score")
-public class Score implements Serializable{
+public class ScoreEntity implements Serializable{
 	
-
 	/**
 	 * serialVersionUID
 	 */
@@ -26,15 +25,15 @@ public class Score implements Serializable{
 	 
 	@ManyToOne
 	@JoinColumn(name = "movie_id")
-	private Movie movie;
+	private MovieEntity movie;
 	
 	@ManyToOne
 	@JoinColumn(name = "user_id")
-	private User user;
+	private UserEntity user;
 	
 	private Double value;
 
-	public Score() {
+	public ScoreEntity() {
 		
 	}
 
@@ -46,19 +45,19 @@ public class Score implements Serializable{
 		this.id = id;
 	}
 
-	public Movie getMovie() {
+	public MovieEntity getMovie() {
 		return movie;
 	}
 
-	public void setMovie(Movie movie) {
+	public void setMovie(MovieEntity movie) {
 		this.movie = movie;
 	}
 
-	public User getUser() {
+	public UserEntity getUser() {
 		return user;
 	}
 
-	public void setUser(User user) {
+	public void setUser(UserEntity user) {
 		this.user = user;
 	}
 
@@ -69,8 +68,9 @@ public class Score implements Serializable{
 	public void setValue(Double value) {
 		this.value = value;
 	}
-	
-	
-	
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
 
 }
