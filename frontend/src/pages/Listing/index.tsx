@@ -2,7 +2,6 @@ import axios from "axios";
 import MovieCard from "components/MovieCard";
 import Pagination from "components/Pagination";
 import { useEffect, useState } from "react";
-import { unstable_renderSubtreeIntoContainer } from "react-dom";
 import { MoviePage } from "types/movie";
 import { BASE_URL } from "utils/requests";
 
