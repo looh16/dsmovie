@@ -5,7 +5,7 @@
 
 https://custodio-dsmovie.netlify.app/
 
-DSMovie é uma aplicação full stack web desenvolvida durante a **Semana DevSuperior**, evento organizado pela [DevSuperior](https://https://devsuperior.com.br/cursos "Site da DevSuperior").
+DSMovie é uma aplicação full stack web desenvolvida durante a **Semana DevSuperior**, evento organizado pela [DevSuperior](https://devsuperior.com.br/cursos "Site da DevSuperior").
 
 A aplicação consiste em fazer a listagem de filmes, onde qualquer utilizador pode avalidar o filme a sua escolha. 
 
