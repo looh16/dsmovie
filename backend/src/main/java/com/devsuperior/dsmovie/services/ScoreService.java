@@ -35,6 +35,7 @@ public class ScoreService {
 			user = userRepository.saveAndFlush(user);
 		}
 		
+		
 		MovieEntity movie = movieRepository.findById(dto.getMovieId()).get();
 		ScoreEntity score = new ScoreEntity();
 		score.setMovie(movie);
@@ -50,7 +51,7 @@ public class ScoreService {
 		
 		double avg = sum / movie.getScores().size();
 		movie.setScore(avg);
-		
+		movie.setCount(movie.getCount() + 1);
 		movie = movieRepository.save(movie);
 		
 		return new MovieDTO(movie);
