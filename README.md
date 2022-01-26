@@ -31,7 +31,7 @@ A aplicação consiste em fazer a listagem de filmes, onde qualquer utilizador p
 git clone https://github.com/looh16/dsmovie.git
 
 
-## Back end
+## Backend
 Pré-requisitos: Java 17
 
 # entrar na pasta do projeto back end
