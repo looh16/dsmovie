@@ -45,11 +45,10 @@ cd backend
 Pré-requisitos: npm / yarn
 
 ```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
 
-# entrar na pasta do projeto front end web
-cd front-web
+
+# entrar na pasta do projeto frontend
+cd frontend
 
 # instalar dependências
 yarn install
