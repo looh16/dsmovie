@@ -41,7 +41,7 @@ cd backend
 ./mvnw spring-boot:run
 ```
 
-## Front end web
+## Frontend
 Pré-requisitos: npm / yarn
 
 ```bash
